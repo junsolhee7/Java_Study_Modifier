@@ -1,28 +1,26 @@
 package com.iu.main;
 
-import com.iu.terran.Marine;
-import com.iu.zerg.Hydra;
+import com.iu.himart.Client;
+import com.iu.himart.Computer;
+import com.iu.himart.Phone;
+import com.iu.himart.TV;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Marine m1 = new Marine();
-		m1.setHp(30);
-		System.out.println(m1.getHp());
-		m1.info();
-		m1.move();
-		
-		
-		Hydra h1 = new Hydra();
-		h1.setHp(80);
-		System.out.println(h1.getHp());
-		
-		
-		
-		
-
 				
-
+		Computer computer = new Computer();
+		TV tv = new TV();
+		Phone phone = new Phone();
+		
+		computer.info();
+		tv.info();
+		phone.info();
+		
+		Client client = new Client();
+		client.buy(tv);
+		client.buy(phone);
+		client.buy(computer);
 	}
 
 }
