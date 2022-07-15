@@ -1,23 +1,26 @@
 package com.iu.main;
 
-import com.iu.animal.Cat;
-import com.iu.animal.Human;
-import com.iu.animal.Zoo;
+import com.iu.terran.Marine;
+import com.iu.zerg.Hydra;
 
 public class Main {
-	Zoo zoo = new Zoo();
 
 	public static void main(String[] args) {
-//
-//		Cat cat = new Cat();
-//		cat.sound();
-//		cat.age=5;
-		Human human = new Human();
-//		human.age=500;
-//		human.setAge
-		//------------------------
-		System.out.println(Zoo.title);
-		Zoo.info();
+		Marine m1 = new Marine();
+		m1.setHp(30);
+		System.out.println(m1.getHp());
+		m1.info();
+		m1.move();
+		
+		
+		Hydra h1 = new Hydra();
+		h1.setHp(80);
+		System.out.println(h1.getHp());
+		
+		
+		
+		
+
 				
 
 	}
