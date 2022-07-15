@@ -20,6 +20,9 @@ public class Main {
 		h1.setHp(80);
 		System.out.println(h1.getHp());
 		
+		m1.attack();
+		hydra.attack();
+		
 		
 		//Marine is a Unit
 		//Marine is a Unit

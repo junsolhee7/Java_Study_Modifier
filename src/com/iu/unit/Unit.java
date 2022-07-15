@@ -12,6 +12,8 @@ public abstract class Unit {//객체로생성하기엔 명확하지않아서
 	}
 	public abstract void move();
 	
+	public abstract void attack();
+	
 	public void info() {
 		System.out.println("Super Info");
 	}
