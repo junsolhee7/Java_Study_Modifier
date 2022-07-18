@@ -14,6 +14,10 @@ public class Main {
 		
 		//Test data set
 		int [] nums = {1,2,3};
+//		String name = new String();
+		String name = "test";
+		char ch = name.charAt(1);
+		System.out.println(ch);
 
 		//1. com.iu.util.CollectionStack 클래스 생성
 			// add - 새로운 숫자(입력) 추가 무조건 0번(인덱스)에 추가
